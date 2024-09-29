@@ -1,0 +1,18 @@
+[package]
+name = "SkillChain"
+version = "1.0.0"
+
+[addresses]
+# Main address (the one you generated)
+AuthentiChain = "0xc0f69f893f6ad5a72834e917aa3242abd5b48d878501e5e0003a6d5c5cf8a3fb"
+
+[dev-addresses]
+# Dev address (same as the main address for Devnet)
+AuthentiChain = "0xc0f69f893f6ad5a72834e917aa3242abd5b48d878501e5e0003a6d5c5cf8a3fb"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
