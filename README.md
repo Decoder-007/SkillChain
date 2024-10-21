@@ -35,6 +35,15 @@ SkillChain is a decentralized platform designed to manage skill certifications o
 3. Commit your changes.
 4. Push to the branch and submit a pull request.
 
+## Contract Details
+
+The smart contracts for SkillChain are deployed at the following address:
+
+- **Contract Address:** 0xc0f69f893f6ad5a72834e917aa3242abd5b48d878501e5e0003a6d5c5cf8a3fb
+
+You can find this address in the `Move.toml` file under the relevant section.
+
+
 ## License
 
 This project is licensed under the MIT License.
